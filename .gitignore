@@ -1,2 +1,37 @@
-/Data
-/tmp
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Ignore virtual environment folders
+venv/
+.env/
+*.env
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Ignore output data and temporary files
+data/
+tmp/
+
+# Ignore video output and frames
+*.mp4
+output_frames/
+
+# Ignore IDE settings and workspace files
+.vscode/
+*.swp
+
+# Ignore build files
+*.egg-info/
+.DS_Store
+
+# General OS files
+Thumbs.db
+.DS_Store
+
+# Logs
+*.log
+*.out
+*.err
